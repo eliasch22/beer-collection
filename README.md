@@ -28,23 +28,7 @@ Bestehende Sammlungen aus der Original-App lassen sich samt Fotos importieren.
 
 ## 📲 Installation
 
-### 1 · App auf GitHub Pages veröffentlichen
-
-> [!NOTE]
-> Einmalig, am besten am PC. Ein Gratis-Konto auf [github.com](https://github.com) genügt.
-
-1. **Repository erstellen:** oben rechts **+** → **New repository**
-   - Name: `beers`
-   - Sichtbarkeit: **Public** (GitHub Pages ist im Gratis-Konto nur für öffentliche Repositories verfügbar. Öffentlich ist nur der Programmcode, nie deine Biere oder Fotos.)
-2. **Dateien hochladen:** im leeren Repository auf **uploading an existing file** klicken (später: **Add file → Upload files**).
-   Den *Inhalt* des Ordners `beers` ins Fenster ziehen, also `index.html` auf oberster Ebene, dazu die Ordner `icons` und `vendor`. Danach **Commit changes**.
-3. **Pages aktivieren:** **Settings → Pages** → Source **Deploy from a branch** → Branch `main`, Ordner `/ (root)` → **Save**
-4. Nach 1–2 Minuten ist die App online:
-   ```
-   https://DEIN-BENUTZERNAME.github.io/beers/
-   ```
-
-### 2 · Auf dem Handy installieren
+### 1 · Auf dem Handy installieren
 
 | Android (Chrome) | iPhone (Safari) |
 |---|---|
@@ -52,7 +36,7 @@ Bestehende Sammlungen aus der Original-App lassen sich samt Fotos importieren.
 
 Danach startet Beers wie eine normale App, mit eigenem Icon, im Vollbild und auch offline.
 
-### 3 · Bestehende Daten übernehmen
+### 2 · Bestehende Daten übernehmen
 
 <details>
 <summary><b>Aus der Claude-Version</b></summary>
@@ -213,7 +197,7 @@ beers/
 
 **Vorlage: «Beers» von [Mariusz Hopa](https://play.google.com/store/apps/details?id=pl.hoper.mariusz.beerlibrary)**
 
-Die Idee, der Funktionsumfang und das Erfolgssystem dieser App gehen auf die Android-App **Beers** (Paket `pl.hoper.mariusz.beerlibrary`) von Mariusz Hopa zurück. Laut [Softonic](https://beers.de.softonic.com/android) wurde sie zuletzt am 8. Juni 2023 aktualisiert (Version 1.3.3). Inzwischen ist sie nicht mehr im Google Play Store erhältlich.
+Die Idee, der Funktionsumfang und das Erfolgssystem dieser App gehen auf die Android-App **Beers** (Paket `pl.hoper.mariusz.beerlibrary`) von Mariusz Hopa zurück. Laut [Softonic](https://beers.de.softonic.com/android) wurde sie zuletzt am 8. Juni 2023 aktualisiert (Version 1.3.3).
 
 Danke für viele Jahre treue Begleitung beim Biertrinken!
 
