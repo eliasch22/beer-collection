@@ -10,7 +10,10 @@ Offline, ohne Konto, ohne Werbung. Deine Daten bleiben auf deinem Handy.
 ![PWA](https://img.shields.io/badge/PWA-installierbar-E2A11B?style=for-the-badge)
 ![Offline](https://img.shields.io/badge/offline-✓-2D6849?style=for-the-badge)
 ![Daten](https://img.shields.io/badge/Daten-nur_lokal-16211B?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-1.0.0-5D6C63?style=for-the-badge)
+![Sprachen](https://img.shields.io/badge/Sprachen-DE_·_EN_·_FR_·_IT_·_ES-2D6849?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.2.0-5D6C63?style=for-the-badge)
+
+### [▶ App öffnen: eliasch22.github.io/beers](https://eliasch22.github.io/beers/)
 
 [Installation](#-installation) · [Funktionen](#-funktionen) · [Wissenswertes](#-wissenswertes) · [Bibliotheken](#-enthaltene-bibliotheken) · [Credits](#-credits)
 
@@ -28,7 +31,23 @@ Bestehende Sammlungen aus der Original-App lassen sich samt Fotos importieren.
 
 ## 📲 Installation
 
-### 1 · Auf dem Handy installieren
+### 1 · App auf GitHub Pages veröffentlichen
+
+> [!NOTE]
+> Einmalig, am besten am PC. Ein Gratis-Konto auf [github.com](https://github.com) genügt.
+
+1. **Repository erstellen:** oben rechts **+** → **New repository**
+   - Name: `beers`
+   - Sichtbarkeit: **Public** (GitHub Pages ist im Gratis-Konto nur für öffentliche Repositories verfügbar. Öffentlich ist nur der Programmcode, nie deine Biere oder Fotos.)
+2. **Dateien hochladen:** im leeren Repository auf **uploading an existing file** klicken (später: **Add file → Upload files**).
+   Den *Inhalt* des Ordners `beers` ins Fenster ziehen, also `index.html` auf oberster Ebene, dazu die Ordner `icons` und `vendor`. Danach **Commit changes**.
+3. **Pages aktivieren:** **Settings → Pages** → Source **Deploy from a branch** → Branch `main`, Ordner `/ (root)` → **Save**
+4. Nach 1–2 Minuten ist die App online:
+   ```
+   https://eliasch22.github.io/beers/
+   ```
+
+### 2 · Auf dem Handy installieren
 
 | Android (Chrome) | iPhone (Safari) |
 |---|---|
@@ -36,7 +55,15 @@ Bestehende Sammlungen aus der Original-App lassen sich samt Fotos importieren.
 
 Danach startet Beers wie eine normale App, mit eigenem Icon, im Vollbild und auch offline.
 
-### 2 · Bestehende Daten übernehmen
+### 3 · Bestehende Daten übernehmen
+
+<details>
+<summary><b>Aus der Claude-Version</b></summary>
+
+1. In der Claude-Version: **Einstellungen → Backup mit Fotos (ZIP)**
+2. In der installierten App: **Einstellungen → Importieren (ZIP oder JSON)** → ZIP-Datei wählen
+
+</details>
 
 <details>
 <summary><b>Aus der Original-App «Beers» (Android)</b></summary>
@@ -100,10 +127,20 @@ Biere zum Probieren vormerken, z. B. im Laden oder in der Bar. Mit **«Getrunken
 | Treue | 9 | 1 Monat bis 10 Jahre Bier-Tagebuch |
 | Spass | 23 | Feuchtfröhlich, Inselhüpfer, Bier-ABC, Regenbogen, Freitag, der 13. … |
 
+### 🃏 Teilen-Karten
+Jedes Bier und jeden Erfolg als Sammelkarte teilen, z. B. über WhatsApp oder Instagram:
+- **Bierkarte:** Foto, Stil-Icon, Stil mit Landesflagge, Sterne, Quartett-Werte (Brauerei, Ort, Alkohol, stärkste Geschmackswerte, Ø der Brauerei), optional deine Notizen als Flavour-Text, Kartennummer in deiner Sammlung
+- **Erfolgskarte:** grosses Symbol, Fortschrittsbalken, Aufgabe, Stand, Punkte und Gesamtstand
+- **Seltenheit:** Gewöhnlich, Selten, Episch oder Legendär, bei Bieren nach Bewertung, bei Erfolgen nach Punkten
+- **Profil:** Dein Benutzername (Einstellungen → Profil) steht unten auf jeder Karte.
+
 ### 💾 Backup
 - **Backup mit Fotos** als ZIP-Datei, direkt teilbar an Google Drive, Mail usw.
 - Import von ZIP, JSON und XML (Original-App)
 - Erinnerung, wenn das letzte Backup älter als 30 Tage ist
+
+### 🌐 Sprachen
+Deutsch, English, Français, Italiano und Español, umschaltbar unter **Einstellungen → Sprache**. Beim ersten Start übernimmt die App die Sprache des Handys. Ländernamen, Datumsformat und alle Erfolge passen sich an.
 
 ### 🎨 Darstellung
 Hell, Dunkel oder wie das System. Jede Stilfamilie hat ein eigenes Icon mit passender Glasform und Bierfarbe:
@@ -189,7 +226,7 @@ beers/
 
 **Vorlage: «Beers» von [Mariusz Hopa](https://play.google.com/store/apps/details?id=pl.hoper.mariusz.beerlibrary)**
 
-Die Idee, der Funktionsumfang und das Erfolgssystem dieser App gehen auf die Android-App **Beers** (Paket `pl.hoper.mariusz.beerlibrary`) von Mariusz Hopa zurück. Laut [Softonic](https://beers.de.softonic.com/android) wurde sie zuletzt am 8. Juni 2023 aktualisiert (Version 1.3.3).
+Die Idee, der Funktionsumfang und das Erfolgssystem dieser App gehen auf die Android-App **Beers** (Paket `pl.hoper.mariusz.beerlibrary`) von Mariusz Hopa zurück. Laut [Softonic](https://beers.de.softonic.com/android) wurde sie zuletzt am 8. Juni 2023 aktualisiert (Version 1.3.3). Inzwischen ist sie nicht mehr im Google Play Store erhältlich.
 
 Danke für viele Jahre treue Begleitung beim Biertrinken!
 
