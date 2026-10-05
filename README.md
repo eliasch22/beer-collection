@@ -39,14 +39,6 @@ Danach startet Beers wie eine normale App, mit eigenem Icon, im Vollbild und auc
 ### 2 · Bestehende Daten übernehmen
 
 <details>
-<summary><b>Aus der Claude-Version</b></summary>
-
-1. In der Claude-Version: **Einstellungen → Backup mit Fotos (ZIP)**
-2. In der installierten App: **Einstellungen → Importieren (ZIP oder JSON)** → ZIP-Datei wählen
-
-</details>
-
-<details>
 <summary><b>Aus der Original-App «Beers» (Android)</b></summary>
 
 1. In der Original-App: **Settings → Backup data**. Es entsteht eine XML-Datei, z. B. `Beers_Week_2026_40.xml`.
