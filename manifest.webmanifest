@@ -1,0 +1,17 @@
+{
+  "name": "Beers",
+  "short_name": "Beers",
+  "description": "Persönliches Bier-Tagebuch: bewerten, sammeln, Erfolge.",
+  "lang": "de-CH",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#EDF0EA",
+  "theme_color": "#EDF0EA",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
