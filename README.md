@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="icons/icon-512.png" alt="Beers" width="128">
+<img src="icons/icon-512.png" alt="Beer Collection" width="128">
 
-# Beers
+# Beer Collection
 
 **Dein persönliches Bier-Tagebuch. Bewerten, sammeln, Erfolge freischalten.**
 Offline, ohne Konto, ohne Werbung. Deine Daten bleiben auf deinem Handy.
@@ -11,9 +11,9 @@ Offline, ohne Konto, ohne Werbung. Deine Daten bleiben auf deinem Handy.
 ![Offline](https://img.shields.io/badge/offline-✓-2D6849?style=for-the-badge)
 ![Daten](https://img.shields.io/badge/Daten-nur_lokal-16211B?style=for-the-badge)
 ![Sprachen](https://img.shields.io/badge/Sprachen-DE_·_EN_·_FR_·_IT_·_ES-2D6849?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-1.2.0-5D6C63?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.3.0-5D6C63?style=for-the-badge)
 
-### [▶ App öffnen: eliasch22.github.io/beers](https://eliasch22.github.io/beers/)
+### [▶ App öffnen: eliasch22.github.io/beer-collection](https://eliasch22.github.io/beer-collection/)
 
 [Installation](#-installation) · [Funktionen](#-funktionen) · [Wissenswertes](#-wissenswertes) · [Bibliotheken](#-enthaltene-bibliotheken) · [Credits](#-credits)
 
@@ -23,7 +23,7 @@ Offline, ohne Konto, ohne Werbung. Deine Daten bleiben auf deinem Handy.
 
 ## 🍺 Worum geht es?
 
-Beers ist eine installierbare Web-App (PWA) zum Erfassen und Bewerten von Bieren. Sie ist der Nachfolger der Android-App **«Beers» von Mariusz Hopa**, die nicht mehr im Google Play Store erhältlich ist. Alle Funktionen der Vorlage sind übernommen, dazu kommen Barcode-Scan, lokale Etikett-Erkennung, Geschmacksprofile, Weltkarte und über 80 Erfolge.
+Beer Collection ist eine installierbare Web-App (PWA) zum Erfassen und Bewerten von Bieren. Sie ist der Nachfolger der Android-App **«Beers» von Mariusz Hopa**, die nicht mehr im Google Play Store erhältlich ist. Alle Funktionen der Vorlage sind übernommen, dazu kommen Barcode-Scan, lokale Etikett-Erkennung, Geschmacksprofile, Weltkarte und über 80 Erfolge.
 
 Bestehende Sammlungen aus der Original-App lassen sich samt Fotos importieren.
 
@@ -31,29 +31,27 @@ Bestehende Sammlungen aus der Original-App lassen sich samt Fotos importieren.
 
 ## 📲 Installation
 
-   https://eliasch22.github.io/beers/
-
-### 1 · Auf dem Handy installieren
+Keine App-Store-Installation nötig: Die App läuft im Browser und lässt sich wie eine normale App auf den Startbildschirm legen.
 
 | Android (Chrome) | iPhone (Safari) |
 |---|---|
-| Adresse öffnen → Menü **⋮** → **App installieren** | Adresse öffnen → **Teilen** → **Zum Home-Bildschirm** |
+| [eliasch22.github.io/beer-collection](https://eliasch22.github.io/beer-collection/) öffnen → Menü **⋮** → **App installieren** | [eliasch22.github.io/beer-collection](https://eliasch22.github.io/beer-collection/) öffnen → **Teilen** → **Zum Home-Bildschirm** |
 
-Danach startet Beers wie eine normale App, mit eigenem Icon, im Vollbild und auch offline.
+Danach startet Beer Collection mit eigenem Icon, im Vollbild und auch offline. Beim ersten Start fragt die App nach deinem Namen; er erscheint später auf deinen geteilten Karten.
 
-### 2 · Bestehende Daten übernehmen
-
-<details>
-<summary><b>Aus der Original-App «Beers» (Android)</b></summary>
+### Sammlung aus der Original-App «Beers» übernehmen
 
 1. In der Original-App: **Settings → Backup data**. Es entsteht eine XML-Datei, z. B. `Beers_Week_2026_40.xml`.
-2. In Beers: **Einstellungen → Alte Beers-App → Backup (XML) importieren**
+2. In Beer Collection: **Einstellungen → Alte Beers-App → Backup (XML) importieren**
 3. Danach **Fotos zuordnen** und im Dateimanager alle Bilder `BEER_JJJJMMTThhmmss.jpg` auswählen.
 
 > [!TIP]
 > Fotos über den **Dateimanager** auswählen, nicht über die Galerie. Die Galerie-Auswahl von Android benennt Dateien um, dann klappt die Zuordnung über den Dateinamen nicht. Als Rückfallebene ordnet die App auch über den Speicherzeitpunkt zu (±3 Minuten).
 
-</details>
+### Sammlung auf ein neues Handy umziehen
+
+1. Auf dem alten Handy: **Einstellungen → Backup mit Fotos (ZIP)** oder **Backup teilen**
+2. Auf dem neuen Handy die App installieren und unter **Einstellungen → Importieren (ZIP oder JSON)** die Datei wählen
 
 ---
 
@@ -155,7 +153,7 @@ Das Barcode-Präfix zeigt, in welchem Land der Code registriert wurde. Das ist m
 England, Schottland, Wales und Nordirland werden einzeln erfasst, auf der Karte aber als Grossbritannien dargestellt. Für «Kontinent komplett» zählen die UN-Mitgliedstaaten plus Vatikan. Gebiete wie Aruba oder Curaçao zählen für den ersten Erfolg pro Kontinent, aber nicht für «komplett».
 
 **🔄 Updates**
-Geänderte Dateien im Repository ersetzen. Die App lädt die neue Version beim nächsten Öffnen mit Internet. Bei Änderungen an `sw.js` die Konstante `VERSION` erhöhen.
+Neue Versionen werden automatisch geladen, sobald du die App mit Internetverbindung öffnest. Deine Daten bleiben dabei erhalten.
 
 **📱 Browser**
 Am besten in Chrome auf Android. Auf dem iPhone funktioniert die App in Safari; der Barcode-Scan nutzt dort die mitgelieferte ZXing-Bibliothek.
@@ -165,11 +163,11 @@ Am besten in Chrome auf Android. Auf dem iPhone funktioniert die App in Safari; 
 ## 🗂️ Projektstruktur
 
 ```
-beers/
+beer-collection/
 ├── index.html              App (HTML, CSS, JavaScript in einer Datei)
 ├── manifest.webmanifest    PWA-Beschreibung (Name, Icons, Farben)
 ├── sw.js                   Service Worker für den Offline-Betrieb
-├── .nojekyll               verhindert die Jekyll-Verarbeitung auf GitHub Pages
+├── .nojekyll               für GitHub Pages
 ├── icons/                  App-Icons (192, 512, maskable)
 └── vendor/
     ├── jszip.min.js        ZIP-Backup
@@ -204,7 +202,7 @@ beers/
 
 **Vorlage: «Beers» von [Mariusz Hopa](https://play.google.com/store/apps/details?id=pl.hoper.mariusz.beerlibrary)**
 
-Die Idee, der Funktionsumfang und das Erfolgssystem dieser App gehen auf die Android-App **Beers** (Paket `pl.hoper.mariusz.beerlibrary`) von Mariusz Hopa zurück. Laut [Softonic](https://beers.de.softonic.com/android) wurde sie zuletzt am 8. Juni 2023 aktualisiert (Version 1.3.3). Inzwischen ist sie nicht mehr im Google Play Store erhältlich.
+Die Idee, der Funktionsumfang und das Erfolgssystem von Beer Collection gehen auf die Android-App **Beers** (Paket `pl.hoper.mariusz.beerlibrary`) von Mariusz Hopa zurück. Laut [Softonic](https://beers.de.softonic.com/android) wurde sie zuletzt am 8. Juni 2023 aktualisiert (Version 1.3.3). Inzwischen ist sie nicht mehr im Google Play Store erhältlich.
 
 Danke für viele Jahre treue Begleitung beim Biertrinken!
 
@@ -212,7 +210,7 @@ Danke für viele Jahre treue Begleitung beim Biertrinken!
 </tr>
 </table>
 
-Dieses Projekt ist eine **unabhängige Neuentwicklung** für den privaten Gebrauch. Es enthält keinen Programmcode der Original-App und steht in keiner Verbindung zu Mariusz Hopa. Das Backup-Format der Original-App wird nur gelesen, damit bestehende Sammlungen übernommen werden können.
+Beer Collection ist eine **unabhängige Neuentwicklung** für den privaten Gebrauch. Es enthält keinen Programmcode der Original-App und steht in keiner Verbindung zu Mariusz Hopa. Das Backup-Format der Original-App wird nur gelesen, damit bestehende Sammlungen übernommen werden können.
 
 Entwickelt von Elias Schatzmann mit Unterstützung von Claude (Anthropic).
 

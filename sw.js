@@ -1,5 +1,5 @@
-/* Beers PWA – Service Worker: App offline verfügbar machen */
-const VERSION = "beers-1.2.1";
+/* Beer Collection – Service Worker: App offline verfügbar machen */
+const VERSION = "beers-1.3.1";
 const CORE = ["./", "index.html", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "vendor/jszip.min.js", "vendor/zxing.min.js"];
 
 self.addEventListener("install", e => {
